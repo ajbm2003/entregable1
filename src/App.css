@@ -1,0 +1,18 @@
+.app {
+  background-size: cover;
+  background-position: center ;
+}
+
+.app.bg1{
+  background-image: url(./img1.jpg);
+}
+
+.app.bg2{
+  background-image: url(./img2.jpg);
+}
+.app.bg3{
+  background-image: url(./img3.jpg);
+}
+.app.bg4{
+  background-image: url(./img4.jpg);
+}

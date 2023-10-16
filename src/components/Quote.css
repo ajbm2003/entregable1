@@ -1,0 +1,35 @@
+.quoteCard {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Wallpoet', cursive;
+}
+
+.quoteCard__title{
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 6px #9F84C5;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.quoteCard__phrase{
+    color: #25063F;
+    margin: 30px auto;
+    max-width: 400px;
+    display: block;
+    padding: 2rem;
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.33) 100%);
+    border-radius: 39px;
+}
+
+.planet{
+    background: url(planet.png);
+    flex-shrink: 0;
+    position: absolute;
+}
